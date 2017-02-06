@@ -20,8 +20,8 @@ library(knitr)
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 
 ```
-
-# Set Up
+# Activity 1
+## Set Up
 
 ```{r}
 # Load the data sets into our RStudio environment as described in the text
@@ -52,7 +52,7 @@ Trips %>%
 ```
 
 
-# A.1 How Long?
+## A.1 How Long?
 
 The following box & whisker plot shows the distribution of rental duration by client type with outliers removed.
 
@@ -75,7 +75,7 @@ Trips %>%
 ```
 
 
-# A.2 When are bikes used?
+## A.2 When are bikes used?
 
 Explore bike use for the following: 
 
@@ -174,7 +174,7 @@ Trips %>%
 ```
 
 
-# A.3 How Far? 
+## A.3 How Far? 
 
 We want to calculate the distance between stations using the `haversine()` function.
 
@@ -262,7 +262,7 @@ RideDistances %>%
 ```
 
 
-# A.4 Mapping the Stations
+## A.4 Mapping the Stations
 
 ```{r}
 stationMap <- 
@@ -275,7 +275,7 @@ stationMap
 ```
 
 
-# A.5 Long-distance stations 
+## A.5 Long-distance stations 
 
 Based on the map, the median distance traveled from each station appears to be negatively correlated with station density.  In other words, when there are many stations in close proximity the median ride distance tends to be shorter by comparison to areas of the city where the ride stations are more sparse.
 
